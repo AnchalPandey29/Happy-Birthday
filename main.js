@@ -8,6 +8,8 @@ function gift()
         text = "Yeee " + gift + "! is waiting for you ";
       }
       document.getElementById("gif").innerHTML = text;
+          document.getElementById('gif').style.fontSize = '30px';
+
 }
 
 
