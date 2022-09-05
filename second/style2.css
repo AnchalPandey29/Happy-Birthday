@@ -131,23 +131,23 @@
   }
   h1{
     position: absolute;
-    height: 100px;
-    top: 150px;
+    height: 80px;
+    top: 25%;
     margin-bottom: 20px;
     background: grey;
     text-shadow: white 3px 3px;
     font-size: 60px;
-    padding-bottom: 10px;
+  
     overflow: hidden;
     box-shadow: 7px 10px rgb(74, 27, 27);
-
+padding: 0 10px;
     white-space: nowrap;
     animation: animate 3s steps(21) alternate;
   }
   @keyframes animate{
     from{width:0;}
     to{
-      width:700px;
+      width:600px;
     }
   }
   .wrapper{
